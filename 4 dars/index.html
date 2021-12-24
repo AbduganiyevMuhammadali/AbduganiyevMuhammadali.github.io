@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Mavzu 1 dars</title>
+      <style>
+            body{
+                  background-image: url(./bg.jpg);
+                  background-position: center;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+            }
+            *{
+                  padding: 0;
+                  margin: 0;
+                  box-sizing: border-box;    
+            }
+            .header{
+                  padding: 0;
+                  margin: 0;
+                  box-sizing: border-box;
+                  background-color: black;
+                  color: #fff;
+                  width: 100%;
+                  height: 100px;
+            }
+            .header_title{
+                  font-family: Brush Script ;
+                  font-weight: 700;
+                  font-style:italic;
+                  text-align: center;
+                  font-size: 40px;
+            }
+            .header-manyu{
+                  margin: auto;
+                  width: 80%;
+                  grid-template-columns: repeat(3,1fr);
+                  display: grid;
+                  gap: 50px;
+            }
+            .header-manyu a{
+                  color:blanchedalmond;
+                  text-decoration: none;
+            }
+            /* Main */
+            .main{
+                  margin-left: 5%;
+                  color:blanchedalmond;
+                  width: 90%;
+                  padding: 100px;
+                  display: grid;
+                  grid-template-columns: repeat(3,1fr);
+            }
+            .main-img{
+                  box-shadow: 10px 15px 50px 20px rgb(78, 29, 29);
+                  padding: 25px;
+                  background-color: none;
+                  width: 100%;
+                  
+            }
+            .main-img img{
+                  border-radius: 10px;
+                  margin-left: 15%;
+                  width: 80%;
+
+            }
+            .main-img p{
+                  font-size: 15px;
+                  text-align: center;
+                  font-style: inherit;
+            }
+      </style>
+</head>
+<body >
+    <div class="header">
+      <h2 class="header_title">Kompyuterlar savdosi</h2> 
+      <div class="header-manyu">
+            <a href="#apple">Apple</a>
+            <a href="#acer">Acer</a>
+            <a href="#acer">Lenovo</a>
+      </div>
+    </div>
+    <div class="main">
+          <div class="main-img">
+                <h1 style="text-align: center; font-family: inherit; margin-bottom: 20px;">Apple</h1>
+                <img src="./bg.jpg"  id="apple" alt="shaxar"  title="shaxarlar">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo cupiditate </p>
+            <a href="#" class="buy">1000 $ BUY</a>
+          </div>
+          <div class="main-img">
+            <h1 style="text-align: center; font-family: inherit; margin-bottom: 20px;">Apple</h1>
+            <img src="./bg.jpg"  alt="shaxar"  title="shaxarlar">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo cupiditate </p>
+        <a href="#" class="buy">1000 $ BUY</a>
+      </div>
+      <div class="main-img">
+            <h1 style="text-align: center; font-family: inherit; margin-bottom: 20px;">Apple</h1>
+            <img src="./bg.jpg"  alt="shaxar"  title="shaxarlar">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo cupiditate </p>
+        <a href="#" class="buy">1000 $ BUY</a>
+      </div>
+      
+    </div>
+    <div class="main">
+      <div class="main-img">
+            <h1 style="text-align: center; font-family: inherit; margin-bottom: 20px;">Apple</h1>
+            <img src="./acer.jpg"  alt="shaxar"  title="shaxarlar">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo cupiditate </p>
+        
+      </div>
+      <div class="main-img">
+        <h1 style="text-align: center; font-family: inherit; margin-bottom: 20px;">Apple</h1>
+        <img src="./acer.jpg"  alt="shaxar"  title="shaxarlar">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo cupiditate </p>
+    
+  </div>
+  <div class="main-img" id="acer">
+        <h1 style="text-align: center; font-family: inherit; margin-bottom: 20px;">Apple</h1>
+        <img src="./acer.jpg"  alt="shaxar"  title="shaxarlar">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo cupiditate </p>
+    
+  </div>
+  
+</div>
+
+
+</body>
+</html>

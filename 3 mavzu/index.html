@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            *{
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box;
+            }
+            .reg{
+                  position: relative;
+                  width: 32%;
+                  height: 350px;
+                  display: flex;
+                  margin-top: 10%;
+                  margin-left: 35%;
+                  background-color: aliceblue;
+                  box-shadow: 20px 10px 20px 5px rgb(161, 135, 135);
+                  border-top:3px solid rgb(39, 226, 64) ;
+            }
+            .reg-img{
+             position: absolute;
+             left: 40%;
+             top: 12%;
+             width: 80px;
+            }
+            .reg_tag{
+                  position: absolute;
+                  left: 10%;
+                  top: 40%;
+                  width: 85%;
+                  text-align: center;
+                  font-family: 'Times New Roman', Times, serif;
+                  font-style:inherit ;
+                  font-size:20px;
+                  font-weight: 300;
+                  line-height: 30px;
+            }
+            .hemis{
+                  position: absolute;
+                  left: 12%;
+                  top: 60%;
+                  font-size:15px;
+            }
+            .phone{
+                  position: absolute;
+                  left: 12%;
+                  top: 72%;
+                  width: 80%;
+                  height: 25px;
+                  border-radius: 2px;
+                  border: solid rgb(209, 167, 167) 1px;
+                  text-align: center;
+            }
+            .sms{
+                  top: 83%;   
+            }
+            .sumbit{
+                  top: 92%;
+                  width: 80px;
+                  left: 70%;
+                  border: 2px solid red;
+                  background-color: rgb(83, 107, 212);
+                  cursor: pointer;
+                  border-radius: 5px;
+            }
+            
+      </style>
+</head>
+<body>
+      <div class="reg">
+         <div class="reg_item">
+               <img src="./gerb.jpg" alt="gerb" class="reg-img">
+            <h2 class="reg_tag">
+                  Toshkent axborot texnologiyalari universiteti <br> Farg‘ona filiali
+            </h2>
+            <h4 class="reg_tag hemis">HEMIS Student axborot tizimi</h4>
+            <input type="text" placeholder="Phone 📞" class="phone">
+            <input type="password" class="phone sms" placeholder="  password 📥">
+            <a href="https://student.fbtuit.uz/"><input type="submit" class="phone sumbit"></a>
+            
+         </div>
+      </div>
+</body>
+</html>
